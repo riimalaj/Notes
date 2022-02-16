@@ -1,0 +1,25 @@
+Kootut LV - tipit:
+
+LV: CR- kasittely LAB-Admin menussa.
+
+LV: CR- checkin tehdaan change log tabin kautta. Taman jalkeen klikkaa complete nappia CR-editoinnissa.
+
+LV: Jarjestys 1. avaa CR johon JIRA ID 2. Muutokset SDC - tauluun talletuksineen. 3. Checkin logs tabin kautta. 4. CR- edit ja complete.
+Queryihin tehdaan muutokset LV:ssa eika koodissa. Asiaan liittyvan queryn saa selville laittamalla Translation sivun translation boxiin ks queryn nimen esim Sample Search. Query voi koeponnistaa dbeaverissa joskin queryssakin on oma testi. Query argumenteilla valitaan mita naytetaan.
+
+CR: Haluessasi siirtää konfiguraation headista junit:iin niin exportoi CR ja importoi se eadjunitiin.
+
+Koodi: Yksinkertainen lähestymistapa on monesti virheettömin, nopein ja lähipänä oikeaa. Vähemmän koodia vähemmän virheitä.
+
+Koodi: Orginal aina talteen niin voi pakittaa tarvittaessa.
+
+DB: Paasaantoisesti ei kanta muutoksia eli jos tarvitsee tehda esim kenttiin muutoksia niin System Admin menun SDC:n kautta.
+
+DB: Mikäli puhtaita kantamuutoksia niin change request / change control jonka jalkeen muutokset ja checkin (checkout tehty avatessa muutosta).
+
+DB: Kanta muutokset tehdaan ensiksi locaalisti, mutta loppujen lopuksi headiin (pitaa tarkistaa) queryn osalta.
+
+Yksi chedkout per repo alue eli jos teet useampi korjauksia / implementaatioita niin voit kayttaa samaa projektia.
+
+
+
